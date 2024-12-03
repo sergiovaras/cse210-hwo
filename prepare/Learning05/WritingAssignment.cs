@@ -8,15 +8,12 @@ public class WritingAssignment : Assignment
     {
         _title = title;
     }
-    public string GetStudentName()
-    {
-        return _studentName;
-    }
+    
+    
     public string GetWritingInformation()
     {
-        return _title;
-
+        string _studentName = GetStudentName();
+        
+        return $"{_title} by {_studentName} ";
     }
-
-
 }
