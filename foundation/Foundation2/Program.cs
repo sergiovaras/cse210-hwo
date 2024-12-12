@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-       // The first order
+       
         var address1 = new Address("905 Main St", "New York", "NY", "USA");
         var customer1 = new Customer("Smith Joseph", address1);
         var order1 = new Order(customer1);
